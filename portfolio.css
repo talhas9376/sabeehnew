@@ -1,0 +1,93 @@
+ /* Basic Layout */
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav {
+  background-color: #555;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+}
+
+/* Grid Layout */
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}
+
+.sidebar {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content {
+  background: #fff;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button ,input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.profile-pic {
+width: 200px;         
+height: auto;       
+margin-bottom: 15px;
+}

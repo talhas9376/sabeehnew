@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1 id="main-heading" style="color: #fff;">Muhammad Sabeeh</h1>
+    <p>Content Writer | Proofreader | Beginner Web Developer</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main Layout -->
+  <div class="container">
+    <!-- Main Content -->
+    <section class="content" id="about">
+      <h2>About Me</h2>
+      <p>I am a passionate content writer and proofreader. I also enjoy learning HTML and CSS to build simple websites like this one!</p>
+      <div class="profile-pic">
+        <img src="portfolio1.jfif" alt="My Photo" />
+      </div>
+      
+
+      <h3>My Work Table</h3>
+      <table>
+        <tr>
+          <th>Project</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>Content Writing</td>
+          <td>Completed</td>
+        </tr>
+        <tr>
+          <td>Portfolio Website</td>
+          <td>In Progress</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2 id="skills">Skills</h2>
+      <ul>
+        <li>Content Writing</li>
+        <li>Proofreading</li>
+        <li>HTML Basics</li>
+        <li>CSS Styling</li>
+      </ul>
+
+      <h3>Quick Links</h3>
+      <a href="https://www.upwork.com">My Upwork</a>
+      <a href="https://www.fiverr.com">My Fiverr</a>
+    </aside>
+  </div>
+
+  <!-- Contact Form -->
+  <section class="content" id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name" >Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required/>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required/>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" name="message" placeholder="Write your message" required></textarea>
+      <button>Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Muhammad Sabeeh. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
